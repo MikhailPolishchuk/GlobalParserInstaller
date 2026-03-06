@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+    Uri="https://mikhailpolishchuk.github.io/GlobalParserInstaller/installer/GlobalParserInstaller.appinstaller"
+    Version="1.0.8.0">
+
+  <MainPackage
+      Name="430c1271-977c-4396-8396-4e0d19fda63a"
+      Publisher="CN=Mikhail Polishchuk"
+      Version="1.0.8.0"
+      Uri="https://mikhailpolishchuk.github.io/GlobalParserInstaller/installer/GlobalParserInstaller_1.0.8.0_AnyCPU.msix"
+      ProcessorArchitecture="neutral" />
+
+  <UpdateSettings>
+    <OnLaunch
+        HoursBetweenUpdateChecks="0"
+        ShowPrompt="true"
+        UpdateBlocksActivation="false" />
+  </UpdateSettings>
+
+</AppInstaller>

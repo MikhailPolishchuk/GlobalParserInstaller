@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Установка GlobalParser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .box {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 12px 18px;
+            margin: 10px 10px 10px 0;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        a.button:hover {
+            background: #1d4ed8;
+        }
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Установка GlobalParser</h1>
+
+    <p>Выберите способ установки приложения:</p>
+
+    <div class="box">
+        <h2>Рекомендуемый способ</h2>
+        <p>Установка через файл <code>.appinstaller</code>. Этот вариант удобен для последующих обновлений приложения.</p>
+        <a class="button" href="GlobalParserInstaller.appinstaller">Установить приложение</a>
+    </div>
+
+    <div class="box">
+        <h2>Ручная установка</h2>
+        <p>Если автоматическая установка не работает, можно скачать пакет вручную:</p>
+        <a class="button" href="GlobalParserInstaller_1.0.8.0_AnyCPU.msix">Скачать MSIX</a>
+    </div>
+
+    <div class="box">
+        <h2>Если Windows сообщает о недоверенном издателе</h2>
+        <p>Нужно установить сертификат разработчика в доверенные корневые центры сертификации и доверенные издатели.</p>
+    </div>
+</body>
+</html>

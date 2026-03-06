@@ -9,7 +9,7 @@
       Publisher="CN=Mikhail Polishchuk"
       Version="1.0.9.0"
       ProcessorArchitecture="neutral"
-      Uri="https://github.com/MikhailPolishchuk/GlobalParserInstaller/releases/download/v1.0.8/GlobalParserInstaller_1.0.9.0_AnyCPU.msix" />
+      Uri="https://github.com/MikhailPolishchuk/GlobalParserInstaller/releases/download/v1.0.9/GlobalParserInstaller_1.0.9.0_AnyCPU.msix" />
 
   <UpdateSettings>
     <OnLaunch
